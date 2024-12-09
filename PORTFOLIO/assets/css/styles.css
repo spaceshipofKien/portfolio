@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Sen", sans-serif;
+    font-size: 62.5%;
+}
+
+.wrapper {
+    background-color: #000;
+}
+
+/* Header */
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    padding: 0 72px;
+}
+
+.header__logo {
+    color: #fff;
+    cursor: pointer;
+}
+
+.header__logo-p {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.header__navbar {
+    display: flex; /* Align navbar items horizontally */
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Matches the height of the header */
+}
+
+.header__navbar-list {
+    display: flex; /* Allows vertical centering inside */
+    align-items: center; /* Center content vertically */
+    justify-content: center;
+    list-style: none;
+    font-size: 1.4rem;
+    padding: 0 24px;
+    position: relative; /* Default positioning */
+    transition: all 0.3s ease; /* Smooth transition */
+    z-index: 1; /* Ensure hover effect stays on top */
+    height: 100%; /* Make sure it matches the height of the parent */
+    width: 120px;
+}
+
+.header__navbar-list:hover {
+    background-color: rgba(82, 33, 230, 0.8); /* Highlight on hover */
+    transform: scale(1.1); /* Zoom in slightly */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+    position: relative; /* Maintain its position */
+    height: 100%; /* Full height of the parent */
+    width: 120px; /* Adjust width if necessary */
+    z-index: 2; /* Ensure it’s on top */
+    top: 0; /* Ensure proper alignment */
+}
+
+
+.header__navbar-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero main */
+.hero__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    padding: 0 72px;
+}
+
+.hero__main-img {
+    border-radius: 50%;
+}
+
+.hero__main-img img {
+    position: relative;
+    border-radius: 50%;
+    width: 36vw;
+}
+
+.hero__main-content {
+    color: #fff;
+    line-height: 1.3;
+}
+
+.hero__main-content .hero__main-p {
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+span {
+    color: #c22f2f;
+}
+
+.hero__main-content .hero__main-dsc {
+    font-size: 3rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.hero__main-content .hero__main-info {
+    font-size: 1.6rem;
+}
+
+
+
