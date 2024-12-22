@@ -9,6 +9,7 @@
 body {
     font-family: "Sen", sans-serif;
     font-size: 62.5%;
+    background-color: #F7EFE5;
 }
 
 .header {
@@ -55,6 +56,13 @@ body {
     cursor: pointer;
     background-color: #F9E6CF;
     color: var(--hover-color);
+}
+
+.container {
+    padding-top: 60px;
+    margin: 0 auto;
+    width: 80vw;
+    height: 100vh;
 }
 
 
