@@ -66,4 +66,42 @@ body {
 }
 
 
+.container .container__identify {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 100px;
+}
+
+.container .identify__img img {
+    width: 600px;
+    border-radius: 50%;
+    float: left;
+}
+
+.container .identify__content {
+    line-height: 1.5;
+}
+
+.identify__content h2 {
+    font-size: 6rem;
+    font-weight: 800;
+}
+
+.identify__content h2 span {
+    color: var(--hover-color);
+}
+
+.identify__content #identify__title {
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: var(--hover-color);
+}
+
+.identify__content #identify__about {
+    font-size: 1.6rem;
+}
 
