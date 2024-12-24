@@ -3,3 +3,11 @@
     --text-color: #F5EFE7;
     --hover-color: #DA498D;
 }
+
+
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}

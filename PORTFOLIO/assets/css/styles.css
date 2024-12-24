@@ -62,7 +62,6 @@ body {
     padding-top: 60px;
     margin: 0 auto;
     width: 80vw;
-    height: 100vh;
 }
 
 
@@ -72,6 +71,7 @@ body {
     justify-content: space-between;
     margin-top: 40px;
     gap: 100px;
+    padding-bottom: 60px;
 }
 
 .container .identify__img img {
@@ -103,5 +103,14 @@ body {
 
 .identify__content #identify__about {
     font-size: 1.6rem;
+}
+
+.projects__title {
+    
+}
+
+.projects__title p {
+    font-size: 1.8rem;
+    font-weight: 800;
 }
 
